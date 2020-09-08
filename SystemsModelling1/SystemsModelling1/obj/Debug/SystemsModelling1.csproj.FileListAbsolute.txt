@@ -1,0 +1,10 @@
+C:\Users\16ale\Desktop\SystemsModelling1\SystemsModelling1\bin\Debug\SystemsModelling1.exe.config
+C:\Users\16ale\Desktop\SystemsModelling1\SystemsModelling1\bin\Debug\SystemsModelling1.exe
+C:\Users\16ale\Desktop\SystemsModelling1\SystemsModelling1\bin\Debug\SystemsModelling1.pdb
+C:\Users\16ale\Desktop\SystemsModelling1\SystemsModelling1\obj\Debug\SystemsModelling1.csprojAssemblyReference.cache
+C:\Users\16ale\Desktop\SystemsModelling1\SystemsModelling1\obj\Debug\SystemsModelling1.Properties.Resources.resources
+C:\Users\16ale\Desktop\SystemsModelling1\SystemsModelling1\obj\Debug\SystemsModelling1.csproj.GenerateResource.cache
+C:\Users\16ale\Desktop\SystemsModelling1\SystemsModelling1\obj\Debug\SystemsModelling1.csproj.CoreCompileInputs.cache
+C:\Users\16ale\Desktop\SystemsModelling1\SystemsModelling1\obj\Debug\SystemsModelling1.exe
+C:\Users\16ale\Desktop\SystemsModelling1\SystemsModelling1\obj\Debug\SystemsModelling1.pdb
+C:\Users\16ale\Desktop\SystemsModelling1\SystemsModelling1\obj\Debug\SystemsModelling1.Form1.resources
