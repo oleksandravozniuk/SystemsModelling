@@ -103,8 +103,8 @@ namespace SystemsModelling1
                 chart3.Series["Task1.1"].Points.AddXY(xs[i], ns[indexN]);
             }
 
-            textBox2.Text = "Medium = " + M(xs).ToString();
-            textBox3.Text = "Dispersion = " + D(xs).ToString();
+            textBox2.Text = "M = " + M(xs).ToString();
+            textBox3.Text = "D = " + D(xs).ToString();
             textBox8.Text = "Hi = " + Hi1(xs, ns);
             textBox9.Text = "k = " + (ns.Count-1).ToString();
         }
@@ -187,10 +187,12 @@ namespace SystemsModelling1
                 chart4.Series["Task2.1"].Points.AddXY(xs[i], ns[indexN]);
             }
 
-            textBox4.Text = "Medium = " + M(xs).ToString();
-            textBox5.Text = "Dispersion = " + D(xs).ToString();
+            textBox4.Text = "M = " + M(xs).ToString();
+            textBox5.Text = "D = " + D(xs).ToString();
             textBox10.Text = "Hi = " + Hi2(xs, ns,sigma,a);
             textBox11.Text = "k = " + (ns.Count - 1).ToString();
+            textBox14.Text = "sigma=" + sigma;
+            textBox15.Text = "a=" + a;
         }
 
         private double nu()
@@ -223,11 +225,12 @@ namespace SystemsModelling1
 
             double a = Math.Pow(5, 13);
             double c = Math.Pow(2, 31);
-            double zStart = rnd.Next(1, 100); 
+            double zStart = rnd.Next(1, 100);
+            double z0 = zStart;
 
             List<double> xs = new List<double>();
 
-            for (int i = 1; i <= 10000; i++)
+            for (int i = 1; i <= N; i++)
             {
                 double z = a * zStart % c;
                 double x = (double)z / c;
@@ -249,7 +252,7 @@ namespace SystemsModelling1
             double counter = 0;
             List<double> ns = new List<double>();
 
-            for (int i = 0; i < 10000; i++)
+            for (int i = 0; i < N; i++)
             {
                 if (xs[i] <= h)
                 {
@@ -267,7 +270,7 @@ namespace SystemsModelling1
             double h2 = hReal;
             double maxValue = ns[0];
 
-            for (int i = 0; i < 10000; i++)
+            for (int i = 0; i < N; i++)
             {
                 if (i > maxValue)
                 {
@@ -280,10 +283,11 @@ namespace SystemsModelling1
                 chart6.Series["Task3.1"].Points.AddXY(xs[i], ns[indexN]);
             }
 
-            textBox6.Text = "Medium = " + M(xs).ToString();
-            textBox7.Text = "Dispersion = " + D(xs).ToString();
+            textBox6.Text = "M = " + M(xs).ToString();
+            textBox7.Text = "D = " + D(xs).ToString();
             textBox12.Text = "Hi = " + Hi3(xs, ns);
             textBox13.Text = "k = " + (ns.Count - 1).ToString();
+            textBox16.Text = "z0 = " + z0;
         }
 
         public double M(List<double> xs)
