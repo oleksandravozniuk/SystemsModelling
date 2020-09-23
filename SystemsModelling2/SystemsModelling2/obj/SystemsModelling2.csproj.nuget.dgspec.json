@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj": {}
+    "C:\\Users\\16ale\\Desktop\\SystemModelling\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj": {
+    "C:\\Users\\16ale\\Desktop\\SystemModelling\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj",
+        "projectUniqueName": "C:\\Users\\16ale\\Desktop\\SystemModelling\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj",
         "projectName": "SystemsModelling2",
-        "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj",
-        "packagesPath": "C:\\Users\\Oleksandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\obj\\",
+        "projectPath": "C:\\Users\\16ale\\Desktop\\SystemModelling\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj",
+        "packagesPath": "C:\\Users\\16ale\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\16ale\\Desktop\\SystemModelling\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Oleksandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\16ale\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

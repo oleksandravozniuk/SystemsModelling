@@ -11,3 +11,16 @@ C:\Users\Oleksandra\Desktop\SystemsModelling\SystemsModelling\SystemsModelling2\
 C:\Users\Oleksandra\Desktop\SystemsModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\obj\Debug\netcoreapp3.1\SystemsModelling2.dll
 C:\Users\Oleksandra\Desktop\SystemsModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\obj\Debug\netcoreapp3.1\SystemsModelling2.pdb
 C:\Users\Oleksandra\Desktop\SystemsModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\obj\Debug\netcoreapp3.1\SystemsModelling2.genruntimeconfig.cache
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\bin\Debug\netcoreapp3.1\SystemsModelling2.exe
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\bin\Debug\netcoreapp3.1\SystemsModelling2.deps.json
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\bin\Debug\netcoreapp3.1\SystemsModelling2.runtimeconfig.json
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\bin\Debug\netcoreapp3.1\SystemsModelling2.runtimeconfig.dev.json
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\bin\Debug\netcoreapp3.1\SystemsModelling2.dll
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\bin\Debug\netcoreapp3.1\SystemsModelling2.pdb
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\obj\Debug\netcoreapp3.1\SystemsModelling2.csprojAssemblyReference.cache
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\obj\Debug\netcoreapp3.1\SystemsModelling2.AssemblyInfoInputs.cache
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\obj\Debug\netcoreapp3.1\SystemsModelling2.AssemblyInfo.cs
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\obj\Debug\netcoreapp3.1\SystemsModelling2.csproj.CoreCompileInputs.cache
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\obj\Debug\netcoreapp3.1\SystemsModelling2.dll
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\obj\Debug\netcoreapp3.1\SystemsModelling2.pdb
+C:\Users\16ale\Desktop\SystemModelling\SystemsModelling\SystemsModelling2\SystemsModelling2\obj\Debug\netcoreapp3.1\SystemsModelling2.genruntimeconfig.cache
