@@ -17,7 +17,8 @@ namespace SystemsModelling2
         private int state, maxqueue, queue;
         private int nextEvent;//чи є на обробці події
 
-        private double deltaT;
+        private double deltaTR;
+        private double deltaTL;
 
         private ExpDistribution expDistribution = new ExpDistribution(); 
 
@@ -46,12 +47,6 @@ namespace SystemsModelling2
 
         public void Simulate(double timeModelling)
         {
-            List<double> tServices = new List<double>();
-            int i = 0;
-
-            double tServiceSum = 0;
-
-
 
             while(tcurr<timeModelling)
             {
@@ -64,34 +59,30 @@ namespace SystemsModelling2
                     nextEvent = 1;
                 }
 
-                deltaT = deltaT + ((tnext - tcurr) * state);
+                deltaTR = deltaTR + ((tnext - tcurr) * state);
+                deltaTL = deltaTR + ((tnext - tcurr) * queue);
 
                 tcurr = tnext;
-
-                if(nextEvent==0)
-                {
-                    tServices.Add(tcurr);
-                }
 
                 switch (nextEvent)
                 {
                     case 0: event0(); break;
-                    case 1: event1();tServiceSum = tServiceSum + (tServices[i] = tcurr - tServices[i]);i++; break;
+                    case 1: event1(); break;
                 }
 
                // printInfo();
                 
             }
-            double rAver = deltaT / tnext;//середнє завантаження пристрою
-            double tNet = tServiceSum/numProcess;//середній час очікування
+            double rAver = deltaTR / tnext;//середнє завантаження пристрою
+            double qAver = deltaTL/numProcess;//середній час обслуговування
             double failureProbability = (double)failure /(double) numCreate;//вірогідність відмови
 
-            Console.WriteLine(delayCreate + "            " + delayProcess + "            " + maxqueue + "          " + rAver + "                " + tNet + "        " + failureProbability);
+            Console.WriteLine(delayCreate + "            " + delayProcess + "            " + maxqueue + "          " + rAver + "                " + qAver + "               " + failureProbability);
 
             //printStatistic();
         }
 
-        public void event0()//подія надходження
+        public void event0()//подія надходження вимоги
         {
             t0 = tcurr + getDelayCreate();//момент часу надходження наступної події на обслуговування
             numCreate++;//збільшення кількості елементі, які вже обслугувались
@@ -106,7 +97,7 @@ namespace SystemsModelling2
                 else failure++;//додати елемент до числа відмов
             }
         }
-        public void event1()//подія закінчення обслуговування на каналі
+        public void event1()//подія закінчення обслуговування на каналі вимоги
         {
             t1 = Double.MaxValue;
             state = 0;//канал вільний

@@ -6,7 +6,7 @@ namespace SystemsModelling2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("DelayCreate " + "DelayProcess " + "MaxQueue " + "   R average " + "                    T net "+ "                  FailureProbability");
+            Console.WriteLine("DelayCreate " + "DelayProcess " + "MaxQueue " + "   R average " + "                    Q average "+ "                       FailureProbability");
             for(int i=0;i<10;i++)
             {
                 Model model = new Model(2, 1, 5);
@@ -14,7 +14,7 @@ namespace SystemsModelling2
             }
 
             Console.WriteLine();
-            Console.WriteLine("DelayCreate " + "DelayProcess " + "MaxQueue " + "   R average " + "                    T net " + "                  FailureProbability");
+            Console.WriteLine("DelayCreate " + "DelayProcess " + "MaxQueue " + "   R average " + "                    Q average" + "                       FailureProbability");
             for (int i = 0; i < 10; i++)
             {
                 Model model = new Model(2, 1, i+1);
@@ -22,7 +22,7 @@ namespace SystemsModelling2
             }
 
             Console.WriteLine();
-            Console.WriteLine("DelayCreate " + "DelayProcess " + "MaxQueue " + "      R average " + "                        T net " + "                  FailureProbability");
+            Console.WriteLine("DelayCreate " + "DelayProcess " + "MaxQueue " + "      R average " + "                        Q average " + "                       FailureProbability");
             for (int i = 0; i < 10; i++)
             {
                 Model model = new Model(2, i+1, 5);
@@ -30,7 +30,7 @@ namespace SystemsModelling2
             }
 
             Console.WriteLine();
-            Console.WriteLine("DelayCreate " + "DelayProcess " + "MaxQueue " + "      R average " + "                        T net " + "                  FailureProbability");
+            Console.WriteLine("DelayCreate " + "DelayProcess " + "MaxQueue " + "      R average " + "                        Q average " + "                       FailureProbability");
             for (int i = 0; i < 10; i++)
             {
                 Model model = new Model(i+1, 1, 5);
