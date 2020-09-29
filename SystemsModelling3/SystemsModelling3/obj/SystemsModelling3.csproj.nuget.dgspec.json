@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling3\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj": {}
+    "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling3\\SystemsModelling\\SystemsModelling3\\SystemsModelling3\\SystemsModelling3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling3\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj": {
+    "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling3\\SystemsModelling\\SystemsModelling3\\SystemsModelling3\\SystemsModelling3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling3\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj",
-        "projectName": "SystemsModelling2",
-        "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling3\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\SystemsModelling2.csproj",
+        "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling3\\SystemsModelling\\SystemsModelling3\\SystemsModelling3\\SystemsModelling3.csproj",
+        "projectName": "SystemsModelling3",
+        "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling3\\SystemsModelling\\SystemsModelling3\\SystemsModelling3\\SystemsModelling3.csproj",
         "packagesPath": "C:\\Users\\Oleksandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling3\\SystemsModelling\\SystemsModelling2\\SystemsModelling2\\obj\\",
+        "outputPath": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling3\\SystemsModelling\\SystemsModelling3\\SystemsModelling3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,16 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[4.12.0, )"
+            },
+            "System.Collections.NonGeneric": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

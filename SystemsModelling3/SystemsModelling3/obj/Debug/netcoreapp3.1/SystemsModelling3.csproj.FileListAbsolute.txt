@@ -1,0 +1,15 @@
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\bin\Debug\netcoreapp3.1\SystemsModelling3.exe
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\obj\Debug\netcoreapp3.1\SystemsModelling3.csprojAssemblyReference.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\obj\Debug\netcoreapp3.1\SystemsModelling3.AssemblyInfoInputs.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\obj\Debug\netcoreapp3.1\SystemsModelling3.AssemblyInfo.cs
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\bin\Debug\netcoreapp3.1\SystemsModelling3.deps.json
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\bin\Debug\netcoreapp3.1\SystemsModelling3.runtimeconfig.json
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\bin\Debug\netcoreapp3.1\SystemsModelling3.runtimeconfig.dev.json
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\bin\Debug\netcoreapp3.1\SystemsModelling3.dll
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\bin\Debug\netcoreapp3.1\SystemsModelling3.pdb
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\bin\Debug\netcoreapp3.1\MathNet.Numerics.dll
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\obj\Debug\netcoreapp3.1\SystemsModelling3.csproj.CoreCompileInputs.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\obj\Debug\netcoreapp3.1\SystemsModelling3.csproj.CopyComplete
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\obj\Debug\netcoreapp3.1\SystemsModelling3.dll
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\obj\Debug\netcoreapp3.1\SystemsModelling3.pdb
+C:\Users\Oleksandra\Desktop\SystemsModelling3\SystemsModelling\SystemsModelling3\SystemsModelling3\obj\Debug\netcoreapp3.1\SystemsModelling3.genruntimeconfig.cache
