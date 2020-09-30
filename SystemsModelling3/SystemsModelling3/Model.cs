@@ -35,8 +35,7 @@ namespace SystemsModelling3
                     }
                 }
 
-                Console.WriteLine("\nIt's time for event in " +
-                list[_event].Name +", time =   " + tnext);
+                Console.WriteLine("\nIt's time for event in " + list[_event].Name +", time =   " + tnext);
                 foreach(Element e in list)
                 {
                     e.DoStatistics(tnext - tcurr);
@@ -78,11 +77,8 @@ namespace SystemsModelling3
                 if (e.GetType() == typeof(Process)) 
                 {
                     Process p = (Process)e;
-                    Console.WriteLine("Process name = " + p.Name);
-                    Console.WriteLine("mean length of queue = " + p.MeanQueue / tcurr);
-                    Console.WriteLine("failure probability  = " + p.Failure / (double)p.Quantity);
-                    Console.WriteLine("max observable queue number = " + p.MaxObservableQueue);
-                    Console.WriteLine("average loading = " + p.DeltaTR / e.TNext);
+                    Console.WriteLine("Process name               Delay Mean         MaxQueue         Distribution        Mean lenght of queue        failure probability       max observable queue number           average loading  ");
+                    Console.WriteLine(p.Name + "                       " + p.DelayMean +"           " + p.Maxqueue +"                    " +p.Distribution+"         "+ p.MeanQueue / tcurr + "                   " + p.Failure / (double)p.Quantity + "                     " + p.MaxObservableQueue + "                              " + (long)p.DeltaTR / p.TNext);
                     Console.WriteLine("max loading = " + p.MaxDeltaTR);
                     Console.WriteLine();
                 }

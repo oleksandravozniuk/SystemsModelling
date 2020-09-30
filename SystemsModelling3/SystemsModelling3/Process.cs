@@ -14,6 +14,7 @@ namespace SystemsModelling3
         public double DeltaTR { get; set; }
         public double MaxDeltaTR { get; set; }
         public List<Process> NextProcesses { get; set; } = new List<Process>();
+        public bool NextDespose { get; set; }
 
         public Process(double delay):base(delay)
         {
@@ -23,6 +24,7 @@ namespace SystemsModelling3
             MaxObservableQueue = 0;
             DeltaTR = 0.0;
             MaxDeltaTR = 0.0;
+            NextDespose = false;
         }
 
         override public void InAct()
@@ -42,6 +44,7 @@ namespace SystemsModelling3
                 else
                 {
                     Failure++;
+                    Console.WriteLine("--------Failure----------");
                 }
             }
         }
@@ -62,9 +65,26 @@ namespace SystemsModelling3
             if(NextProcesses.Count>0)
             {
                 Random random = new Random();
-                int index = random.Next(0, NextProcesses.Count);
-                Process nextProcess = NextProcesses[index];
-                nextProcess.InAct();
+                int index = 0;
+                if (NextDespose)
+                {
+                    index = random.Next(0, NextProcesses.Count+1);
+                }
+                else
+                {
+                    index = random.Next(0, NextProcesses.Count);
+                }
+
+                if(index==NextProcesses.Count)
+                {
+                    Console.WriteLine("--------Dispose--------");
+                }
+                else
+                {
+                    Process nextProcess = NextProcesses[index];
+                    nextProcess.InAct();
+                }
+                
             }
             else
             {
@@ -87,7 +107,7 @@ namespace SystemsModelling3
             DeltaTR += (delta * State);
             if(delta*State>MaxDeltaTR)
             {
-                MaxDeltaTR = delta * State;
+                MaxDeltaTR = delta * (double)State;
             }
         }
     }

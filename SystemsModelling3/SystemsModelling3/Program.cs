@@ -9,9 +9,9 @@ namespace SystemsModelling3
         {
             Create c = new Create(2.0);
 
-            Process p1 = new Process(1.0);
-            Process p2 = new Process(1.0);
-            Process p3 = new Process(1.0);
+            Process p1 = new Process(4.0);
+            Process p2 = new Process(3.0);
+            Process p3 = new Process(2.0);
             Process p4 = new Process(1.0);
 
             Console.WriteLine("id0 = " + c.Id + "   id1 = " + p1.Id + "  id2 = " + p2.Id + "  id3 = " + p3.Id + "  id4 = " + p4.Id);
@@ -20,6 +20,7 @@ namespace SystemsModelling3
             p1.NextProcesses.Add(p2);
             p1.NextProcesses.Add(p3);
             p3.NextProcesses.Add(p4);
+            p4.NextProcesses.Add(p1);
 
             p1.Maxqueue = 5;
             p2.Maxqueue = 5;
@@ -29,6 +30,9 @@ namespace SystemsModelling3
             p2.TNext = Double.MaxValue;
             p3.TNext = Double.MaxValue;
             p4.TNext = Double.MaxValue;
+
+            p2.NextDespose = true;
+            p4.NextDespose = true;
 
             c.Name = "CREATOR";
             p1.Name = "PROCESSOR 1";
