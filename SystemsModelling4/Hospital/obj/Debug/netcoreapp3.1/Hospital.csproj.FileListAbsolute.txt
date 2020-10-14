@@ -1,0 +1,17 @@
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\bin\Debug\netcoreapp3.1\BaseAlgo.exe
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\bin\Debug\netcoreapp3.1\Hospital.exe
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\bin\Debug\netcoreapp3.1\Hospital.deps.json
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\bin\Debug\netcoreapp3.1\Hospital.runtimeconfig.json
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\bin\Debug\netcoreapp3.1\Hospital.runtimeconfig.dev.json
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\bin\Debug\netcoreapp3.1\Hospital.dll
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\bin\Debug\netcoreapp3.1\Hospital.pdb
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\bin\Debug\netcoreapp3.1\BaseAlgo.dll
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\bin\Debug\netcoreapp3.1\BaseAlgo.pdb
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\obj\Debug\netcoreapp3.1\Hospital.csprojAssemblyReference.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\obj\Debug\netcoreapp3.1\Hospital.AssemblyInfoInputs.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\obj\Debug\netcoreapp3.1\Hospital.AssemblyInfo.cs
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\obj\Debug\netcoreapp3.1\Hospital.csproj.CoreCompileInputs.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\obj\Debug\netcoreapp3.1\Hospital.csproj.CopyComplete
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\obj\Debug\netcoreapp3.1\Hospital.dll
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\obj\Debug\netcoreapp3.1\Hospital.pdb
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\Hospital\obj\Debug\netcoreapp3.1\Hospital.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\obj\Debug\netcoreapp3.1\BaseAlgo.csprojAssemblyReference.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\obj\Debug\netcoreapp3.1\BaseAlgo.AssemblyInfoInputs.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\obj\Debug\netcoreapp3.1\BaseAlgo.AssemblyInfo.cs
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\obj\Debug\netcoreapp3.1\BaseAlgo.csproj.CoreCompileInputs.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\bin\Debug\netcoreapp3.1\BaseAlgo.exe
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\bin\Debug\netcoreapp3.1\BaseAlgo.deps.json
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\bin\Debug\netcoreapp3.1\BaseAlgo.runtimeconfig.json
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\bin\Debug\netcoreapp3.1\BaseAlgo.runtimeconfig.dev.json
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\bin\Debug\netcoreapp3.1\BaseAlgo.dll
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\bin\Debug\netcoreapp3.1\BaseAlgo.pdb
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\obj\Debug\netcoreapp3.1\BaseAlgo.dll
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\obj\Debug\netcoreapp3.1\BaseAlgo.pdb
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\BaseAlgo\obj\Debug\netcoreapp3.1\BaseAlgo.genruntimeconfig.cache

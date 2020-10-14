@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AutoBank/1.0.0": {
+        "dependencies": {
+          "BaseAlgo": "1.0.0"
+        },
+        "runtime": {
+          "AutoBank.dll": {}
+        }
+      },
+      "BaseAlgo/1.0.0": {
+        "runtime": {
+          "BaseAlgo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoBank/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BaseAlgo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\bin\Debug\netcoreapp3.1\BaseAlgo.exe
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\bin\Debug\netcoreapp3.1\AutoBank.exe
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\bin\Debug\netcoreapp3.1\AutoBank.deps.json
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\bin\Debug\netcoreapp3.1\AutoBank.runtimeconfig.json
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\bin\Debug\netcoreapp3.1\AutoBank.runtimeconfig.dev.json
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\bin\Debug\netcoreapp3.1\AutoBank.dll
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\bin\Debug\netcoreapp3.1\AutoBank.pdb
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\bin\Debug\netcoreapp3.1\BaseAlgo.dll
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\bin\Debug\netcoreapp3.1\BaseAlgo.pdb
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\obj\Debug\netcoreapp3.1\AutoBank.csprojAssemblyReference.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\obj\Debug\netcoreapp3.1\AutoBank.AssemblyInfoInputs.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\obj\Debug\netcoreapp3.1\AutoBank.AssemblyInfo.cs
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\obj\Debug\netcoreapp3.1\AutoBank.csproj.CoreCompileInputs.cache
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\obj\Debug\netcoreapp3.1\AutoBank.csproj.CopyComplete
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\obj\Debug\netcoreapp3.1\AutoBank.dll
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\obj\Debug\netcoreapp3.1\AutoBank.pdb
+C:\Users\Oleksandra\Desktop\SystemsModelling4\SystemsModelling\SystemsModelling4\AutoBank\obj\Debug\netcoreapp3.1\AutoBank.genruntimeconfig.cache

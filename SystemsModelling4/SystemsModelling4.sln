@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseAlgo", "BaseAlgo\BaseAlgo.csproj", "{A1465DDE-22EB-4A68-8A46-2686AD8BBA08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoBank", "AutoBank\AutoBank.csproj", "{5A06E873-1180-4BF1-BAA3-042CC1FCE281}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hospital", "Hospital\Hospital.csproj", "{63FC56C0-4F3F-41AB-8149-1A2062417889}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1465DDE-22EB-4A68-8A46-2686AD8BBA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1465DDE-22EB-4A68-8A46-2686AD8BBA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1465DDE-22EB-4A68-8A46-2686AD8BBA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1465DDE-22EB-4A68-8A46-2686AD8BBA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A06E873-1180-4BF1-BAA3-042CC1FCE281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A06E873-1180-4BF1-BAA3-042CC1FCE281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A06E873-1180-4BF1-BAA3-042CC1FCE281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A06E873-1180-4BF1-BAA3-042CC1FCE281}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63FC56C0-4F3F-41AB-8149-1A2062417889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63FC56C0-4F3F-41AB-8149-1A2062417889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63FC56C0-4F3F-41AB-8149-1A2062417889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63FC56C0-4F3F-41AB-8149-1A2062417889}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC1619E5-CBBA-4B4F-91A3-865D0F3F2556}
+	EndGlobalSection
+EndGlobal
