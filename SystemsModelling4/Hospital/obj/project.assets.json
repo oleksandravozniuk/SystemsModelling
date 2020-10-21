@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling4\\SystemsModelling\\SystemsModelling4\\Hospital\\Hospital.csproj",
+      "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\Hospital\\Hospital.csproj",
       "projectName": "Hospital",
-      "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling4\\SystemsModelling\\SystemsModelling4\\Hospital\\Hospital.csproj",
+      "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\Hospital\\Hospital.csproj",
       "packagesPath": "C:\\Users\\Oleksandra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling4\\SystemsModelling\\SystemsModelling4\\Hospital\\obj\\",
+      "outputPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\Hospital\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -57,8 +57,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling4\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj": {
-              "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling4\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj"
+            "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj": {
+              "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj"
             }
           }
         }

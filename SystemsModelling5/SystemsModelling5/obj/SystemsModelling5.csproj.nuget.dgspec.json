@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj": {}
+    "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling5\\SystemsModelling5\\SystemsModelling5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj": {
+    "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling5\\SystemsModelling5\\SystemsModelling5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj",
-        "projectName": "BaseAlgo",
-        "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj",
+        "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling5\\SystemsModelling5\\SystemsModelling5.csproj",
+        "projectName": "SystemsModelling5",
+        "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling5\\SystemsModelling5\\SystemsModelling5.csproj",
         "packagesPath": "C:\\Users\\Oleksandra\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\obj\\",
+        "outputPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling5\\SystemsModelling5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

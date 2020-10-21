@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "BaseAlgo/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/BaseAlgo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BaseAlgo.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "BaseAlgo/1.0.0": {
-      "type": "project",
-      "path": "../BaseAlgo/BaseAlgo.csproj",
-      "msbuildProject": "../BaseAlgo/BaseAlgo.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "BaseAlgo >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\Oleksandra\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\AutoBank\\AutoBank.csproj",
-      "projectName": "AutoBank",
-      "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\AutoBank\\AutoBank.csproj",
+      "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling5\\SystemsModelling5\\SystemsModelling5.csproj",
+      "projectName": "SystemsModelling5",
+      "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling5\\SystemsModelling5\\SystemsModelling5.csproj",
       "packagesPath": "C:\\Users\\Oleksandra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\AutoBank\\obj\\",
+      "outputPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling5\\SystemsModelling5\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -56,11 +37,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj": {
-              "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling4\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj",
+      "projectUniqueName": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj",
       "projectName": "BaseAlgo",
-      "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling4\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj",
+      "projectPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\BaseAlgo.csproj",
       "packagesPath": "C:\\Users\\Oleksandra\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oleksandra\\Desktop\\SystemsModelling4\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\obj\\",
+      "outputPath": "C:\\Users\\Oleksandra\\Desktop\\SystemModelling5\\SystemsModelling\\SystemsModelling4\\BaseAlgo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
