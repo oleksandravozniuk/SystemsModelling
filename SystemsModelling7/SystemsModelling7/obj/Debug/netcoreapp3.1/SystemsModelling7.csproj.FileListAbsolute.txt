@@ -1,0 +1,13 @@
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\bin\Debug\netcoreapp3.1\SystemsModelling7.exe
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\bin\Debug\netcoreapp3.1\SystemsModelling7.deps.json
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\bin\Debug\netcoreapp3.1\SystemsModelling7.runtimeconfig.json
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\bin\Debug\netcoreapp3.1\SystemsModelling7.runtimeconfig.dev.json
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\bin\Debug\netcoreapp3.1\SystemsModelling7.dll
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\bin\Debug\netcoreapp3.1\SystemsModelling7.pdb
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\obj\Debug\netcoreapp3.1\SystemsModelling7.csprojAssemblyReference.cache
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\obj\Debug\netcoreapp3.1\SystemsModelling7.AssemblyInfoInputs.cache
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\obj\Debug\netcoreapp3.1\SystemsModelling7.AssemblyInfo.cs
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\obj\Debug\netcoreapp3.1\SystemsModelling7.csproj.CoreCompileInputs.cache
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\obj\Debug\netcoreapp3.1\SystemsModelling7.dll
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\obj\Debug\netcoreapp3.1\SystemsModelling7.pdb
+C:\Users\Oleksandra\Desktop\SystemModelling5\SystemsModelling\SystemsModelling7\SystemsModelling7\obj\Debug\netcoreapp3.1\SystemsModelling7.genruntimeconfig.cache
