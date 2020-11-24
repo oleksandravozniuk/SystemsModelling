@@ -3,18 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/PetriObj/PetriSim.java</file>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/graphpresentation/FileUse.java</file>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/PetriObj/StateTime.java</file>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/PetriObj/PetriP.java</file>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/PetriObj/PetriT.java</file>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/PetriObj/PetriMainElement.java</file>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/PetriObj/ArcIn.java</file>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/PetriObj/PetriObjModel.java</file>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/PetriObj/ArcOut.java</file>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/PetriObj/FunRand.java</file>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/PetriObj/PetriNet.java</file>
-            <file>file:/C:/Users/Oleksandra/Desktop/PetriObjModelPaint-master/src/graphnet/GraphArcOut.java</file>
+            <file>file:/C:/Users/Oleksandra_Vozniuk/Desktop/MS/SystemsModelling/SystemsModelling10/PetriObjModelPaint-master/src/PetriObj/ArcIn.java</file>
+            <file>file:/C:/Users/Oleksandra_Vozniuk/Desktop/MS/SystemsModelling/SystemsModelling10/PetriObjModelPaint-master/src/PetriObj/PetriNet.java</file>
+            <file>file:/C:/Users/Oleksandra_Vozniuk/Desktop/MS/SystemsModelling/SystemsModelling10/PetriObjModelPaint-master/src/PetriObj/PetriT.java</file>
+            <file>file:/C:/Users/Oleksandra_Vozniuk/Desktop/MS/SystemsModelling/SystemsModelling10/PetriObjModelPaint-master/src/PetriObj/PetriSim.java</file>
         </group>
     </open-files>
 </project-private>

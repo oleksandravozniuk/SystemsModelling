@@ -306,6 +306,23 @@ public class PetriSim implements Cloneable, Serializable {
             }
         };
     }
+    public void changeMark()
+    {
+         for(PetriP place: listP)
+                           {
+                               if(place.getName().equals("Запаси"))
+                               {
+                                   place.setMark(72);
+                               }
+                           }
+                            for(PetriP place: listP)
+                            {
+                                if(place.getName().equals("Нереалізовані після останньої поставки"))
+                                {
+                                   place.setMark(0);
+                                }
+                            }
+    }
 
     /**
      * Do one event
@@ -353,17 +370,24 @@ public class PetriSim implements Cloneable, Serializable {
             setTimeCurr(timeMin);         //просування часу
 
             if (this.getCurrentTime() <= getSimulationTime()) {
-
+              if(eventMin.getName().equals("Доставка"))
+                        {
+                            changeMark();
+                        }
                 //Вихід маркерів
                 eventMin.actOut(listP, this.getCurrentTime() );//Вихід маркерів з переходу, що відповідає найближчому моменту часу
-              
+
                 if (eventMin.getBuffer() > 0) {
                     boolean u = true;
                     while (u == true) {
                         eventMin.minEvent();
                         if (eventMin.getMinTime() == this.getCurrentTime()) {
-
+                                          if(eventMin.getName().equals("Доставка"))
+                        {
+                            changeMark();
+                        }
                             eventMin.actOut(listP, this.getCurrentTime());
+
 
                             // this.printMark();//друкувати поточне маркування
                         } else {
@@ -377,53 +401,21 @@ public class PetriSim implements Cloneable, Serializable {
                 for (PetriT transition : listT) {//ВАЖЛИВО!!Вихід з усіх переходів, що час виходу маркерів == поточний момент час.
                     
                     if (transition.getBuffer() > 0 && transition.getMinTime() == this.getCurrentTime()) {
-                        transition.actOut(listP,this.getCurrentTime());//Вихід маркерів з переходу, що відповідає найближчому моменту часу
-                        if(transition.getName().equals("Доставка"))
-                        {
 
-                           for(PetriP place: listP)
-                           {
-                               if(place.getName().equals("Запаси"))
-                               {
-                                   place.setMark(0);
-                               }
-                           }
-                            for(PetriP place: listP)
-                            {
-                                if(place.getName().equals("Нереалізовані після останньої поставки"))
-                                {
-                                   place.setMark(0);
-                                }
-                            }
-                           
-                        }
-                  
+                        transition.actOut(listP,this.getCurrentTime());//Вихід маркерів з переходу, що відповідає найближчому моменту часу
+  
                         // this.printMark();//друкувати поточне маркування
                         if (transition.getBuffer() > 0) {
                             boolean u = true;
                             while (u == true) {
                                 transition.minEvent();
                                 if (transition.getMinTime() == this.getCurrentTime()) {
-                                    transition.actOut(listP, this.getCurrentTime());
-                                     if(transition.getName().equals("Доставка"))
+                                                   if(eventMin.getName().equals("Доставка"))
                         {
-
-                           for(PetriP place: listP)
-                           {
-                               if(place.getName().equals("Запаси"))
-                               {
-                                   place.setMark(0);
-                               }
-                           }
-                            for(PetriP place: listP)
-                            {
-                                if(place.getName().equals("Нереалізовані після останньої поставки"))
-                                {
-                                   place.setMark(0);
-                                }
-                            }
-                           
+                            changeMark();
                         }
+                                    transition.actOut(listP, this.getCurrentTime());
+
                                     // this.printMark();//друкувати поточне маркування
                                 } else {
                                     u = false;
@@ -467,14 +459,22 @@ public class PetriSim implements Cloneable, Serializable {
    
     public void output(){
             if (this.getCurrentTime() <= this.getSimulationTime()) {
+                 if(eventMin.getName().equals("Доставка"))
+                        {
+                            changeMark();
+                        }
             eventMin.actOut(listP, this.getCurrentTime());//здійснення події
             if (eventMin.getBuffer() > 0) {
                 boolean u = true;
                 while (u == true) {
                     eventMin.minEvent();
                     if (eventMin.getMinTime() == this.getCurrentTime()) {
+                         if(eventMin.getName().equals("Доставка"))
+                        {
+                            changeMark();
+                        }
                         eventMin.actOut(listP,this.getCurrentTime());
-
+                       
                     } else {
                         u = false;
                     }
@@ -485,50 +485,14 @@ public class PetriSim implements Cloneable, Serializable {
             
                 if (transition.getBuffer() > 0 && transition.getMinTime() == this.getCurrentTime()) {
                     transition.actOut(listP, this.getCurrentTime());//Вихід маркерів з переходу, що відповідає найближчому моменту часу
-                       if(transition.getName().equals("Доставка"))
-                        {
-
-                           for(PetriP place: listP)
-                           {
-                               if(place.getName().equals("Запаси"))
-                               {
-                                   place.setMark(72);
-                               }
-                           }
-                            for(PetriP place: listP)
-                            {
-                                if(place.getName().equals("Нереалізовані після останньої поставки"))
-                                {
-                                   place.setMark(0);
-                                }
-                            }
-                           
-                        }
+                      
                     if (transition.getBuffer() > 0) {
                         boolean u = true;
                         while (u == true) {
                             transition.minEvent();
                             if (transition.getMinTime() == this.getCurrentTime()) {
                                 transition.actOut(listP, this.getCurrentTime());
-                                 if(transition.getName().equals("Доставка"))
-                        {
-
-                           for(PetriP place: listP)
-                           {
-                               if(place.getName().equals("Запаси"))
-                               {
-                                   place.setMark(72);
-                               }
-                           }
-                            for(PetriP place: listP)
-                            {
-                                if(place.getName().equals("Нереалізовані після останньої поставки"))
-                                {
-                                   place.setMark(0);
-                                }
-                            }
-                           
-                        }
+                                
                              } else {
                                 u = false;
                             }
