@@ -632,7 +632,6 @@ public class PetriT extends PetriMainElement implements Cloneable, Serializable 
         } else {
             // System.out.println("Buffer is null");
         }
-
     }
 
     /**

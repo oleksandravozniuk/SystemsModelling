@@ -203,11 +203,35 @@ public class PetriSim implements Cloneable, Serializable {
         ArrayList<PetriT> aT = new ArrayList<PetriT>();
 
         for (PetriT transition : listT) {
-            if ((transition.condition(listP) == true) && (transition.getProbability() != 0)) {
+            if((transition.condition(listP) == true) && (transition.getProbability() != 0) && (transition.getName().equals("Замовлення")))
+            {
+                int nerealizovani = 0;
+                for(PetriP place: listP)
+                {
+                    if(place.getName().equals("Нереалізовані після останньої поставки"))
+                    {
+                       nerealizovani = place.getMark();
+                    }
+                }
+                for(PetriP place: listP)
+                {
+                    if(place.getName().equals("Запаси"))
+                    {
+                        if(place.getMark() - nerealizovani <= 18)
+                        {
+                            aT.add(transition);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                if ((transition.condition(listP) == true) && (transition.getProbability() != 0)) {
                 aT.add(transition);
 
+                }
             }
-        }
+            }
 
         if (aT.size() > 1) {
             aT.sort(new Comparator<PetriT>() { // сортування переходів за спаданням пріоритету
@@ -282,6 +306,23 @@ public class PetriSim implements Cloneable, Serializable {
             }
         };
     }
+    public void changeMark()
+    {
+         for(PetriP place: listP)
+                           {
+                               if(place.getName().equals("Запаси"))
+                               {
+                                   place.setMark(72);
+                               }
+                           }
+                            for(PetriP place: listP)
+                            {
+                                if(place.getName().equals("Нереалізовані після останньої поставки"))
+                                {
+                                   place.setMark(0);
+                                }
+                            }
+    }
 
     /**
      * Do one event
@@ -329,7 +370,10 @@ public class PetriSim implements Cloneable, Serializable {
             setTimeCurr(timeMin);         //просування часу
 
             if (this.getCurrentTime() <= getSimulationTime()) {
-
+              if(eventMin.getName().equals("Доставка"))
+                        {
+                            changeMark();
+                        }
                 //Вихід маркерів
                 eventMin.actOut(listP, this.getCurrentTime() );//Вихід маркерів з переходу, що відповідає найближчому моменту часу
 
@@ -338,8 +382,13 @@ public class PetriSim implements Cloneable, Serializable {
                     while (u == true) {
                         eventMin.minEvent();
                         if (eventMin.getMinTime() == this.getCurrentTime()) {
-
+                                          if(eventMin.getName().equals("Доставка"))
+                        {
+                            changeMark();
+                        }
                             eventMin.actOut(listP, this.getCurrentTime());
+
+
                             // this.printMark();//друкувати поточне маркування
                         } else {
                             u = false;
@@ -350,17 +399,23 @@ public class PetriSim implements Cloneable, Serializable {
                 }
                 //Додано 6.08.2011!!!
                 for (PetriT transition : listT) {//ВАЖЛИВО!!Вихід з усіх переходів, що час виходу маркерів == поточний момент час.
-
+                    
                     if (transition.getBuffer() > 0 && transition.getMinTime() == this.getCurrentTime()) {
-                        transition.actOut(listP,this.getCurrentTime());//Вихід маркерів з переходу, що відповідає найближчому моменту часу
 
+                        transition.actOut(listP,this.getCurrentTime());//Вихід маркерів з переходу, що відповідає найближчому моменту часу
+  
                         // this.printMark();//друкувати поточне маркування
                         if (transition.getBuffer() > 0) {
                             boolean u = true;
                             while (u == true) {
                                 transition.minEvent();
                                 if (transition.getMinTime() == this.getCurrentTime()) {
+                                                   if(eventMin.getName().equals("Доставка"))
+                        {
+                            changeMark();
+                        }
                                     transition.actOut(listP, this.getCurrentTime());
+
                                     // this.printMark();//друкувати поточне маркування
                                 } else {
                                     u = false;
@@ -404,13 +459,22 @@ public class PetriSim implements Cloneable, Serializable {
    
     public void output(){
             if (this.getCurrentTime() <= this.getSimulationTime()) {
+                 if(eventMin.getName().equals("Доставка"))
+                        {
+                            changeMark();
+                        }
             eventMin.actOut(listP, this.getCurrentTime());//здійснення події
             if (eventMin.getBuffer() > 0) {
                 boolean u = true;
                 while (u == true) {
                     eventMin.minEvent();
                     if (eventMin.getMinTime() == this.getCurrentTime()) {
+                         if(eventMin.getName().equals("Доставка"))
+                        {
+                            changeMark();
+                        }
                         eventMin.actOut(listP,this.getCurrentTime());
+                       
                     } else {
                         u = false;
                     }
@@ -421,16 +485,19 @@ public class PetriSim implements Cloneable, Serializable {
             
                 if (transition.getBuffer() > 0 && transition.getMinTime() == this.getCurrentTime()) {
                     transition.actOut(listP, this.getCurrentTime());//Вихід маркерів з переходу, що відповідає найближчому моменту часу
+                      
                     if (transition.getBuffer() > 0) {
                         boolean u = true;
                         while (u == true) {
                             transition.minEvent();
                             if (transition.getMinTime() == this.getCurrentTime()) {
                                 transition.actOut(listP, this.getCurrentTime());
+                                
                              } else {
                                 u = false;
                             }
                         }
+                        
                     }
                 }
             }
