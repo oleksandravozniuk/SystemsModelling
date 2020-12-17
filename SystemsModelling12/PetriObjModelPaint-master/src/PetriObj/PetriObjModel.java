@@ -263,6 +263,166 @@ public class PetriObjModel implements Serializable, Cloneable  {
         getListObj().sort(PetriSim.getComparatorByNum()); // return the initial order in the list for a correct output of the results (in SMO test)
     }
     
+     public ArrayList go(double timeModeling, double epsilon) {
+        double min;
+        this.setSimulationTime(timeModeling);   
+        this.setCurrentTime(0.0); 
+        
+        //for period
+        double interval = 100.0;
+        double startIntervalValue = 0.0;
+        double delta = Double.MAX_VALUE;
+        Boolean isStable = true;
+      
+        getListObj().sort(PetriSim.getComparatorByPriority()); //edited 9.11.2015, 12.10.2017
+        for (PetriSim e : getListObj()) { //edited 9.11.2015, 18.07.2018
+            e.input();
+        }
+        if (isProtocolPrint() == true) {
+            for (PetriSim e : getListObj()) {
+                e.printMark();
+            }
+        }
+        ArrayList<PetriSim> conflictObj = new ArrayList<>();
+        Random r = new Random();
+
+        while (this.getCurrentTime() < this.getSimulationTime()) { // edited 18.07.2018
+           
+            conflictObj.clear();
+
+            min = getListObj().get(0).getTimeMin();  //пошук найближчої події
+
+            for (PetriSim e : getListObj()) {
+                if (e.getTimeMin() < min) {
+                    min = e.getTimeMin();
+                }
+            }
+            /*  if(min_t<t){ // added 24.06.2013   !!!!Подумать...при отрицательных задержках висит!!!!
+             JOptionPane.showMessageDialog(null, "Negative time delay was generated! Check parameters, please/");
+             return;
+            
+             }*/
+            if (isStatistics() == true) {
+                for (PetriSim e : getListObj()) {
+                   if (min > 0) {
+                        if(min<this.getSimulationTime())
+                            e.doStatistics((min - this.getCurrentTime()) / min); //статистика за час "дельта т", для спільних позицій потрібно статистику збирати тільки один раз!!!
+                        else
+                            e.doStatistics((this.getSimulationTime() - this.getCurrentTime()) / this.getSimulationTime()); 
+                    }
+
+                }
+            }
+
+           this.setCurrentTime(min); // просування часу //3.12.2015
+            
+            if (isProtocolPrint() == true) {
+                System.out.println(" Time progress: time = " + this.getCurrentTime() + "\n");
+            }
+            if (this.getCurrentTime() <= this.getSimulationTime()) {
+
+                for (PetriSim sim : getListObj()) {
+                    if (this.getCurrentTime() == sim.getTimeMin()) // розв'язання конфлікту об'єктів рівноймовірнісним способом
+                    {
+                        conflictObj.add(sim);                           //список конфліктних обєктів
+                    }
+                }
+                int num;
+                int max;
+                if (isProtocolPrint() == true) {
+                    System.out.println(" List of conflicting objects  " + "\n");
+                    for (int ii = 0; ii < conflictObj.size(); ii++) {
+                        System.out.println(" K [ " + ii + "  ] = " + conflictObj.get(ii).getName() + "\n");
+                    }
+                }
+
+                if (conflictObj.size() > 1) { //вибір об'єкта, що запускається
+                    max = conflictObj.size();
+                    conflictObj.sort(PetriSim.getComparatorByPriority());
+                    for (int i = 1; i < conflictObj.size(); i++) { //System.out.println("  "+conflictObj.get(i).getPriority()+"  "+conflictObj.get(i-1).getPriority());
+                        if (conflictObj.get(i).getPriority() < conflictObj.get(i - 1).getPriority()) {
+                            max = i - 1;
+                            //System.out.println("max=  "+max);
+                            break;
+                        }
+
+                    }
+                    if (max == 0) {
+                        num = 0;
+                    } else {
+                        num = r.nextInt(max);
+                    }
+                } else {
+                    num = 0;
+                }
+
+                if (isProtocolPrint() == true) {
+                    System.out.println(" Selected object  " + conflictObj.get(num).getName() + "\n" + " NextEvent " + "\n");
+                }
+
+                for (PetriSim sim: getListObj()) {
+                    if (sim.getNumObj() == conflictObj.get(num).getNumObj()) {
+                        if (isProtocolPrint() == true) {
+                            System.out.println(" time =   " + this.getCurrentTime() + "   Event '" + sim.getEventMin().getName() + "'\n"
+                                    + "                       is occuring for the object   " + sim.getName() + "\n");
+                        }
+                        sim.doT();
+                        sim.output(); // added by Inna 11.07.2018
+                    }
+                }
+                if (isProtocolPrint() == true) {
+                    System.out.println("Markers output:");
+                    for (PetriSim sim : getListObj()) //ДРУК поточного маркірування
+                    {
+                        sim.printMark();
+                    }
+                }
+                
+                Collections.shuffle(getListObj()); // added by Inna 11.07.2018, need for correct functioning of Petri object's shared resource 
+                
+                getListObj().sort(PetriSim.getComparatorByPriority());
+                
+                for (PetriSim e : getListObj()) {
+                    //можливо змінились умови для інших обєктів
+                    e.input(); //вхід маркерів в переходи Петрі-об'єкта
+
+                }
+                if (isProtocolPrint() == true) {
+                    System.out.println("Markers input:");
+                    for (PetriSim e : getListObj()){ //ДРУК поточного маркірування
+                          e.printMark();
+                    }
+                }
+            }
+            delta = Math.abs(this.getListObj().get(0).getNet().getListP()[14].getMark()/this.getCurrentTime() - startIntervalValue);
+            if(delta>epsilon || delta == 0)
+            {
+                isStable = false;
+            }
+             if(interval <= this.getCurrentTime())
+            {
+                System.out.println("Productivity: " + this.getListObj().get(0).getNet().getListP()[14].getMark()/this.getCurrentTime() + " Delta: " + delta + " Time: " + this.getCurrentTime());
+                if(isStable)
+                {
+                    ArrayList list = new ArrayList();
+                    list.add(this.getListObj().get(0).getNet().getListT()[1].getMean());
+                    list.add(this.getListObj().get(0).getNet().getListT()[4].getMean());
+                    list.add(this.getListObj().get(0).getNet().getListT()[8].getMean());
+                    list.add(this.getListObj().get(0).getNet().getListP()[14].getMark()/this.getCurrentTime());
+                    return list;
+                }
+                else
+                {
+                    startIntervalValue = this.getListObj().get(0).getNet().getListP()[14].getMark()/this.getCurrentTime();
+                    interval = interval + 100;
+                    isStable = true;
+                }
+                
+            }
+        }
+        getListObj().sort(PetriSim.getComparatorByNum()); // return the initial order in the list for a correct output of the results (in SMO test)
+        return null;
+    }
     
      
     /**

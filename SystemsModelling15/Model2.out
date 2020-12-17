@@ -1,0 +1,71 @@
+
+                                      ARENA Simulation Results
+                                              Developer
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/17/2020
+Analyst: teraza99@gmail.com                                          Model revision date:12/17/2020
+
+Replication ended at time      : 1000.0 Minutes 
+Base Time Units: Minutes
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             378.86     (Insuf)    81.148     905.87          3    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000          3    
+Entity 1.WaitTime                           5.4446     (Insuf)    .00000     16.333          3    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000          3    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000          3    
+Entity 1.TotalTime                          384.30     (Insuf)    81.148     922.21          3    
+Process4.Queue.WaitingTime                  .00000     (Insuf)    .00000     .00000          1    
+Process3.Queue.WaitingTime                  270.36     (Insuf)    .00000     794.75          3    
+Process 2.Queue.WaitingTime                 .00000     (Insuf)    .00000     .00000          1    
+Process 1.Queue.WaitingTime                 4.8248     (Insuf)    .00000     23.246          8    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                6.0180     (Insuf)    .00000     11.000     11.000    
+Resource 4.NumberBusy                       .14883     (Insuf)    .00000     1.0000     .00000    
+Resource 4.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 4.Utilization                      .14883     (Insuf)    .00000     1.0000     .00000    
+Resource 3.NumberBusy                       .98919     (Insuf)    .00000     1.0000     1.0000    
+Resource 3.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 3.Utilization                      .98919     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberBusy                       .98269     (Insuf)    .00000     1.0000     1.0000    
+Resource 2.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 2.Utilization                      .98269     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberBusy                       .21932     (Insuf)    .00000     1.0000     1.0000    
+Resource 1.NumberScheduled                  1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Resource 1.Utilization                      .21932     (Insuf)    .00000     1.0000     1.0000    
+Process4.Queue.NumberInQueue                .00000     (Insuf)    .00000     .00000     .00000    
+Process3.Queue.NumberInQueue                .86960     (Insuf)    .00000     1.0000     1.0000    
+Process 2.Queue.NumberInQueue               3.7049     (Insuf)    .00000     8.0000     8.0000    
+Process 1.Queue.NumberInQueue               .03860     (Insuf)    .00000     1.0000     .00000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           14.000    
+Entity 1.NumberOut                          3.0000    
+Resource 4.NumberSeized                     1.0000    
+Resource 4.ScheduledUtilization             .14883    
+Resource 3.NumberSeized                     3.0000    
+Resource 3.ScheduledUtilization             .98919    
+Resource 2.NumberSeized                     1.0000    
+Resource 2.ScheduledUtilization             .98269    
+Resource 1.NumberSeized                     8.0000    
+Resource 1.ScheduledUtilization             .21932    
+System.NumberOut                            3.0000    
+
+
+Simulation run time: 0.33 minutes.
+Simulation run complete.
