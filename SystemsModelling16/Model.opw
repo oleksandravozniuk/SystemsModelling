@@ -1,0 +1,44 @@
+[RESOURCES]
+t1
+t3
+t2
+t5
+t4
+Verstat2
+Verstat3
+Verstat1
+Verstat4
+Verstat5
+[VARIABLES]
+Decide 1.NumberOut False
+Decide 2.NumberOut False
+Decide 3.NumberOut False
+Decide 4.NumberOut False
+Decide 5.NumberOut False
+Processing.NumberIn
+Transfer33.NumberIn
+Processing.NumberOut
+Transfer44.NumberIn
+Transfer55.NumberOut
+Create 1.NumberOut
+Transfer.NumberOut
+Transfer44.NumberOut
+Dispose 1.NumberOut
+Transfer.NumberIn
+Processing2.NumberOut
+Processing3.NumberOut
+Processing4.NumberOut
+Processing5.NumberOut
+Processing2.NumberIn
+Processing3.NumberIn
+Processing4.NumberIn
+Processing5.NumberIn
+Transfer55.NumberIn
+Transfer33.NumberOut
+Transfer22.NumberOut
+Transfer22.NumberIn
+Decide 1.NumberOut True
+Decide 2.NumberOut True
+Decide 3.NumberOut True
+Decide 4.NumberOut True
+Decide 5.NumberOut True

@@ -1,0 +1,115 @@
+SIMAN Run Controller.
+
+600.02268 Hours>
+                                      ARENA Simulation Results
+                                              Developer
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date :12/23/2020
+Analyst: Developer                                                   Model revision date:12/23/2020
+
+Replication ended at time      : 600.02268 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Entity 1.VATime                             5.9668     (Insuf)    .01746     29.686        186    
+Entity 1.NVATime                            .00000     (Insuf)    .00000     .00000        186    
+Entity 1.WaitTime                           2.9519     (Insuf)    .00000     25.708        186    
+Entity 1.TranTime                           .00000     (Insuf)    .00000     .00000        186    
+Entity 1.OtherTime                          .00000     (Insuf)    .00000     .00000        186    
+Entity 1.TotalTime                          8.9188     (Insuf)    .07723     43.784        186    
+Transfer44.Queue.WaitingTime                    --         --         --         --          0
+Transfer55.Queue.WaitingTime                    --         --         --         --          0
+Processing.Queue.WaitingTime                3.5867     (Insuf)    .00000     25.708         88    
+Transfer33.Queue.WaitingTime                .04201     (Insuf)    .00000     .25204          6    
+Transfer22.Queue.WaitingTime                .02840     (Insuf)    .00000     .30919         31    
+Processing5.Queue.WaitingTime                   --         --         --         --          0
+Processing4.Queue.WaitingTime               .00000     (Insuf)    .00000     .00000          6    
+Processing3.Queue.WaitingTime               1.8613     (Insuf)    .00000     9.2301         25    
+Processing2.Queue.WaitingTime               2.4557     (Insuf)    .00000     18.795         69    
+Transfer.Queue.WaitingTime                  .25039     (Insuf)    .00000     2.2548        102    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Entity 1.WIP                                2.7976     .42918     .00000     10.000     5.0000    
+t1.NumberBusy                               .16776     (Insuf)    .00000     1.0000     1.0000    
+t1.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+t1.Utilization                              .16776     (Insuf)    .00000     1.0000     1.0000    
+t3.NumberBusy                               .00912     (Insuf)    .00000     1.0000     .00000    
+t3.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+t3.Utilization                              .00912     (Insuf)    .00000     1.0000     .00000    
+t2.NumberBusy                               .05219     (Insuf)    .00000     1.0000     .00000    
+t2.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+t2.Utilization                              .05219     (Insuf)    .00000     1.0000     .00000    
+t5.NumberBusy                               .00000     (Insuf)    .00000     .00000     .00000    
+t5.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+t5.Utilization                              .00000     (Insuf)    .00000     .00000     .00000    
+t4.NumberBusy                               .00000     (Insuf)    .00000     .00000     .00000    
+t4.NumberScheduled                          1.0000     (Insuf)    1.0000     1.0000     1.0000    
+t4.Utilization                              .00000     (Insuf)    .00000     .00000     .00000    
+Verstat2.NumberBusy                         .57309     (Insuf)    .00000     1.0000     1.0000    
+Verstat2.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Verstat2.Utilization                        .57309     (Insuf)    .00000     1.0000     1.0000    
+Verstat3.NumberBusy                         .22583     (Insuf)    .00000     1.0000     .00000    
+Verstat3.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Verstat3.Utilization                        .22583     (Insuf)    .00000     1.0000     .00000    
+Verstat1.NumberBusy                         .80020     (Insuf)    .00000     1.0000     1.0000    
+Verstat1.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Verstat1.Utilization                        .80020     (Insuf)    .00000     1.0000     1.0000    
+Verstat4.NumberBusy                         .03412     (Insuf)    .00000     1.0000     .00000    
+Verstat4.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Verstat4.Utilization                        .03412     (Insuf)    .00000     1.0000     .00000    
+Verstat5.NumberBusy                         .00000     (Insuf)    .00000     .00000     .00000    
+Verstat5.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Verstat5.Utilization                        .00000     (Insuf)    .00000     .00000     .00000    
+Transfer44.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Transfer55.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Processing.Queue.NumberInQueue              .52603     (Insuf)    .00000     1.0000     .00000    
+Transfer33.Queue.NumberInQueue               4.2004E-4 (Insuf)    .00000     1.0000     .00000    
+Transfer22.Queue.NumberInQueue              .00147     (Insuf)    .00000     1.0000     .00000    
+Processing5.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Processing4.Queue.NumberInQueue             .00000     (Insuf)    .00000     .00000     .00000    
+Processing3.Queue.NumberInQueue             .07755     (Insuf)    .00000     1.0000     .00000    
+Processing2.Queue.NumberInQueue             .28361     (Insuf)    .00000     1.0000     1.0000    
+Transfer.Queue.NumberInQueue                .04625     (Insuf)    .00000     3.0000     1.0000    
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Entity 1.NumberIn                           191.00    
+Entity 1.NumberOut                          186.00    
+t1.NumberSeized                             102.00    
+t1.ScheduledUtilization                     .16776    
+t3.NumberSeized                             6.0000    
+t3.ScheduledUtilization                     .00912    
+t2.NumberSeized                             31.000    
+t2.ScheduledUtilization                     .05219    
+t5.NumberSeized                             .00000    
+t5.ScheduledUtilization                     .00000    
+t4.NumberSeized                             .00000    
+t4.ScheduledUtilization                     .00000    
+Verstat2.NumberSeized                       69.000    
+Verstat2.ScheduledUtilization               .57309    
+Verstat3.NumberSeized                       25.000    
+Verstat3.ScheduledUtilization               .22583    
+Verstat1.NumberSeized                       88.000    
+Verstat1.ScheduledUtilization               .80020    
+Verstat4.NumberSeized                       6.0000    
+Verstat4.ScheduledUtilization               .03412    
+Verstat5.NumberSeized                       .00000    
+Verstat5.ScheduledUtilization               .00000    
+System.NumberOut                            186.00    
+
+
+Simulation run time: 0.83 minutes.
+Simulation run complete.
